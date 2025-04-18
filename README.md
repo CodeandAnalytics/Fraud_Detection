@@ -37,13 +37,8 @@ This structure mimics a real-world database used by risk management teams.
 
 ---
 
-Conclusion
-This project sharpened my:
-
-SQL skills for data modeling.
-Power BI skills for visual storytelling.
-DAX skills for KPI calculations like fraud rate and total fraud cases.
-
+Conclusion:
+This project sharpened my SQL skills for data modeling,Power BI skills for visual storytelling and DAX skills for KPI calculations like fraud rate and total fraud cases.
 It replicates the workflow used in real fraud detection systems, preparing me to handle similar tasks in professional data analytics or BI roles.
 
 
