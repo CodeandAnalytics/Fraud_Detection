@@ -1,4 +1,4 @@
-# 🕵️‍♂️ Fraud Detection Dashboard — SQL + Power BI
+# 🕵 Fraud Detection Dashboard — SQL + Power BI
 
 ## 📊 Project Overview.
 In today’s world of online payments and digital banking, fraud detection is more important than ever for companies like banks, fintech apps, and e-commerce platforms.
