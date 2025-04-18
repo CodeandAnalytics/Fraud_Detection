@@ -10,12 +10,12 @@ This setup helps spot unusual patterns early, track risk exposure, and support f
 ## 🗂️ Dataset Structure
 I worked with a synthetic dataset representing a fintech company’s transaction ecosystem. The data was split into five relational tables:
 
-Users- (user profiles, past fraud history),
-Transactions- (amounts, types, fraud labels),
-Cards- (card type, age),
-Transaction_Insights- (behavioral transaction metrics),
-Security_Features- (IP risk, authentication, risk scores).
-This structure mimics a real-world database used by risk management teams.
+- Users (user profiles, past fraud history),
+- Transactions- (amounts, types, fraud labels),
+- Cards- (card type, age),
+- Transaction_Insights- (behavioral transaction metrics),
+- Security_Features- (IP risk, authentication, risk scores).
+- This structure mimics a real-world database used by risk management teams.
 
 ---
 
@@ -38,7 +38,7 @@ This structure mimics a real-world database used by risk management teams.
 ---
 
 Conclusion:
-This project sharpened my SQL skills for data modeling,Power BI skills for visual storytelling and DAX skills for KPI calculations like fraud rate and total fraud cases.
+- This project sharpened my SQL skills for data modeling,Power BI skills for visual storytelling and DAX skills for KPI calculations like fraud rate and total fraud cases.
 It replicates the workflow used in real fraud detection systems, preparing me to handle similar tasks in professional data analytics or BI roles.
 
 
