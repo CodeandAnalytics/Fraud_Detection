@@ -1,0 +1,16 @@
+total user = COUNTROWS('public users') 
+
+total transaction = COUNTROWS('public transactions') 
+
+total_fraud_case = CALCULATE(COUNTROWS('public transactions'),'public transactions'[fraud_label]=1)
+fraud rate = DIVIDE([total_fraud_case],[total transaction],0)
+
+Succesful transaction = SUM('public transaction_insights'[daily_transaction_count])-SUM('public transaction_insights'[failed_transaction_count_7d]) 
+
+Fruad_by_Auth = CALCULATE(COUNTROWS('public security_features'),'public transactions'[fraud_label]=1)
+
+Avg_riskscore = AVERAGE('public security_features'[risk_score]) 
+
+Fruad_by_card = CALCULATE(COUNTROWS('public cards'),'public transactions'[fraud_label]=1)
+Fraud_rateby_card = DIVIDE('public cards'[Fruad_by_card],'public transactions'[total transaction],0)
+
