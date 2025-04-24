@@ -74,8 +74,8 @@ WITH risky_transaction AS (
         t.fraud_label
     FROM transactions t
     JOIN security_features s ON t.transaction_id = s.transaction_id
-	WHERE t.fraud_label = 1
-	ORDER BY s.risk_score DESC
+    WHERE t.fraud_label = 1
+    ORDER BY s.risk_score DESC
 )
 SELECT * 
 FROM risky_transaction
