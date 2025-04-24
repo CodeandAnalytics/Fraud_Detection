@@ -1,0 +1,6 @@
+"transaction_id","authentication_method","transaction_amount","risk_score","fraud_label"
+"TXN_43824","OTP","69.78","0.989",1
+"TXN_39328","Biometric","48.92","0.988",1
+"TXN_15242","PIN","13.26","0.984",1
+"TXN_32225","Biometric","157.68","0.983",1
+"TXN_42976","OTP","260.47","0.978",1

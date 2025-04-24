@@ -1,0 +1,5 @@
+"authentication_method","avg_risk","fraud_count"
+"Biometric","0.574","15"
+"PIN","0.493","9"
+"OTP","0.479","18"
+"Password","0.444","14"
