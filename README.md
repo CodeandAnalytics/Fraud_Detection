@@ -8,7 +8,7 @@ This setup helps spot unusual patterns early, track risk exposure, and support f
 ---
 
 ## 🗂️ Dataset Structure
-I worked with a synthetic dataset representing a fintech company’s transaction ecosystem. The data was split into five relational tables:
+I worked with real-world dataset representing a fintech company’s transaction ecosystem. This dataset was split into five relational tables:
 
 - Users (user profiles, past fraud history),
 - Transactions (amounts, types, fraud labels),
