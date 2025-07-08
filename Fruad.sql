@@ -10,9 +10,9 @@ Fraud by location
 */
 SELECT 
     u.location,
-	COUNT(t.transaction_id)AS total_transaction,
-	SUM(t.fraud_label)AS fraud_count,
-	ROUND(SUM(t.fraud_label)::DECIMAL/COUNT(t.transaction_id)*100,2) AS Fraud_percent
+    COUNT(t.transaction_id)AS total_transaction,
+    SUM(t.fraud_label)AS fraud_count,
+    ROUND(SUM(t.fraud_label)::DECIMAL/COUNT(t.transaction_id)*100,2) AS Fraud_percent
 FROM transactions t
 JOIN users u ON u.user_id = t.user_id
 GROUP BY u.location
@@ -25,10 +25,10 @@ Fraud detection by card type
 */
 SELECT
       c.card_type,
-	  t.transaction_type,
+      t.transaction_type,
       COUNT(u.user_id) AS user_count,
-	  SUM(i.avg_transaction_amount_7D)AS transaction_amount_7D,
-	  SUM(u.previous_fraudulent_activity) AS fraud_count
+      SUM(i.avg_transaction_amount_7D)AS transaction_amount_7D,
+      SUM(u.previous_fraudulent_activity) AS fraud_count
 FROM users u
 JOIN cards c ON c.user_id = u.user_id
 JOIN transactions t ON t.user_id = u.user_id
@@ -68,7 +68,7 @@ Top 5 high_risky transaction
 WITH risky_transaction AS (
     SELECT 
         t.transaction_id,
-		s.authentication_method,
+	s.authentication_method,
         t.transaction_amount,
         s.risk_score,
         t.fraud_label
