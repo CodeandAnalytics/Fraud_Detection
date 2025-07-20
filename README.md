@@ -28,12 +28,7 @@ I worked with real-world dataset representing a fintech company’s transaction 
 ---
 
 ## 📈 Power BI Dashboard Highlights
-- KPI Cards: KPI Cards illustrates Total Users, Transactions Fraud Count, Fraud Rate.
-- Line Chart: The line chart illustrates Fraud cases and Fraud rate by location.
-- Matrix Table: The matrix visual tabulates Transaction type against Authentication method to analyze the fraud distribution.
-- Bar Chart: The bar chart illustrates Avg transaction amount 7D,categorized by card type.
-- Clustered Bar chart: This bar chart comapring fraud and non_fraud transaction count across different device type.
-- Slicers: Filter by Date, Device, Card, Weekend
+This Power BI dashboard provides a visual analysis of frauduelent transactions using real-world data.It highlights key metrices like fraudrate,transaction trends,device usage,and location-based fraud patterens.Filters sucha as weekend activity,merchant category,card type,and distance bucket enable dynamic exploration for better fraud insights
 
 ---
 
